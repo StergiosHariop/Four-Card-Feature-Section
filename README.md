@@ -23,11 +23,11 @@ Users should be able to:
 ### Screenshot
 
 - Desktop View: 
-(./screenshots/final_result.png)
+![](./screenshots/final_result.png)
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://stergioshariop.github.io/Four-Card-Feature-Section/)
 
 ### Built with
 
