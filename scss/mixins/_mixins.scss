@@ -1,30 +1,30 @@
 @mixin flexbox($align, $justify, $direction) {
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction;
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
 }
 
 @mixin grid($columns, $rows) {
-    display: grid;
-    grid-template-columns: $columns;
-    grid-template-rows: $rows;
+  display: grid;
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
 }
 
 @mixin font($weight, $size) {
-    font-size: $size;
-    font-weight: $weight;
-    font-style: normal;
+  font-size: $size;
+  font-weight: $weight;
+  font-style: normal;
 }
 
 @mixin border($color) {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 8px;
-    background: linear-gradient(to bottom, $color 50%, white 50%);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(to bottom, $color 50%, white 50%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
